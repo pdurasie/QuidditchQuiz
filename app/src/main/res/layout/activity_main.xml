@@ -39,6 +39,7 @@
                     android:layout_height="wrap_content">
 
                     <RadioButton
+                        android:id="@+id/question_one_radio_one"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/question_one_radio_one" />
@@ -93,6 +94,7 @@
                         android:text="@string/question_two_radio_two" />
 
                     <RadioButton
+                        android:id="@+id/question_two_radio_three"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/question_two_radio_three" />
@@ -165,7 +167,7 @@
                     android:text="@string/question_four_body" />
 
                 <RadioGroup
-                    android:id="@+id/question_five_radios"
+                    android:id="@+id/question_four_radios"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content">
 
@@ -175,6 +177,7 @@
                         android:text="@string/question_four_radio_one" />
 
                     <RadioButton
+                        android:id="@+id/question_four_radio_two"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/question_four_radio_two" />
@@ -218,21 +221,25 @@
                     android:text="@string/question_five_body" />
 
                 <CheckBox
+                    android:id="@+id/question_five_check_one"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/question_five_check_one" />
 
                 <CheckBox
+                    android:id="@+id/question_five_check_two"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/question_five_check_two" />
 
                 <CheckBox
+                    android:id="@+id/question_five_check_three"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/question_five_check_three" />
 
                 <CheckBox
+                    android:id="@+id/question_five_check_four"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/question_five_check_four" />
@@ -285,6 +292,7 @@
                         android:text="@string/question_six_radio_three" />
 
                     <RadioButton
+                        android:id="@+id/question_six_radio_four"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/question_six_radio_four" />
@@ -318,21 +326,25 @@
                     android:text="@string/question_seven_body" />
 
                 <CheckBox
+                    android:id="@+id/question_seven_check_one"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/question_seven_check_one" />
 
                 <CheckBox
+                    android:id="@+id/question_seven_check_two"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/question_seven_check_two" />
 
                 <CheckBox
+                    android:id="@+id/question_seven_check_three"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/question_seven_check_three" />
 
                 <CheckBox
+                    android:id="@+id/question_seven_check_four"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/question_seven_check_four" />
@@ -341,6 +353,12 @@
             </LinearLayout>
 
         </androidx.cardview.widget.CardView>
+
+        <Button
+            android:id="@+id/submit_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/submit_btn"/>
 
     </LinearLayout>
 

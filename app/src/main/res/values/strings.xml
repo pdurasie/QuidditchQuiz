@@ -39,7 +39,7 @@
 
     <!-- QUESTION 6 -->
     <string name="question_six_body">The offense is determined to be: \n<b>Illegally leaving the player area</b>.
-\nWhat penalty, if any, should be adjudicated?</string>
+    \nWhat penalty, if any, should be adjudicated?</string>
     <string name="question_six_radio_one">No harm, no foul</string>
     <string name="question_six_radio_two">Speaking Captain blue card</string>
     <string name="question_six_radio_three">Blue Card</string>
@@ -52,5 +52,7 @@
     <string name="question_seven_check_three">Orange chaser is safe</string>
     <string name="question_seven_check_four">Purple beater is not penalized</string>
 
+    <!-- Submit btn -->
+    <string name="submit_btn">Submit</string>
 
 </resources>
