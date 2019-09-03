@@ -1,7 +1,9 @@
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_name">QuidditchQuizApp</string>
     <string name="question_header">Question</string>
     <string name="all_that_apply">Pick all that apply.</string>
+
+    <string name="results">""</string>
 
     <!-- QUESTION 1 -->
     <string name="question_one_body">Purple chaser is inbounding the live quaffle near their own hoops.
