@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">QuidditchQuizApp</string>
+    <string name="question_header">Question</string>
+
+    <!-- unscorable quaffle question -->
+    <string name="question_one_body">Purple chaser is inbounding the live quaffle near their own hoops.
+        They throw it towards a teammate in an attempt to pass it, but it bounces off
+        of the reciever\'s body and passes fully through their own hoop.
+        \n\nIs this a good goal?</string>
+    <string name="question_one_radio_one">Yes, the Quaffle was scorable</string>
+    <string name="question_one_radio_two">No, the Quaffle was unscorable</string>
+
+
+</resources>
