@@ -11,7 +11,7 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
 
-        <!-- Question about scorable quaffle -->
+        <!-- QUESTION 1 -->
         <androidx.cardview.widget.CardView
             android:id="@+id/card_view1"
             style="@style/card_style">
@@ -34,6 +34,7 @@
                     android:text="@string/question_one_body" />
 
                 <RadioGroup
+                    android:id="@+id/question_one_radios"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content">
 
@@ -53,7 +54,7 @@
 
         </androidx.cardview.widget.CardView>
 
-        <!-- Question about proceeding to the penalty box -->
+        <!-- QUESTION 2 -->
 
         <androidx.cardview.widget.CardView
             android:id="@+id/card_view2"
@@ -77,34 +78,37 @@
                     android:text="@string/question_two_body" />
 
                 <RadioGroup
+                    android:id="@+id/question_two_radios"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content">
 
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="@string/question_one_radio_one" />
+                        android:text="@string/question_two_radio_one" />
 
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="@string/question_one_radio_two" />
+                        android:text="@string/question_two_radio_two" />
 
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="@string/question_one_radio_two" />
+                        android:text="@string/question_two_radio_three" />
 
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="@string/question_one_radio_two" />
+                        android:text="@string/question_two_radio_four" />
 
                 </RadioGroup>
 
             </LinearLayout>
 
         </androidx.cardview.widget.CardView>
+
+        <!-- QUESTION 3 -->
 
         <androidx.cardview.widget.CardView
             android:id="@+id/card_view3"
@@ -125,27 +129,19 @@
                     style="@style/question_body_style"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/question_one_body" />
+                    android:text="@string/question_three_body" />
 
-                <RadioGroup
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content">
-
-                    <RadioButton
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="@string/question_one_radio_one" />
-
-                    <RadioButton
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="@string/question_one_radio_two" />
-
-                </RadioGroup>
+                <EditText
+                    android:id="@+id/area_question_answer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="text" />
 
             </LinearLayout>
 
         </androidx.cardview.widget.CardView>
+
+        <!-- QUESTION 4-->
 
         <androidx.cardview.widget.CardView
             android:id="@+id/card_view4"
@@ -166,27 +162,186 @@
                     style="@style/question_body_style"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/question_one_body" />
+                    android:text="@string/question_four_body" />
 
                 <RadioGroup
+                    android:id="@+id/question_five_radios"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content">
 
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="@string/question_one_radio_one" />
+                        android:text="@string/question_four_radio_one" />
 
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="@string/question_one_radio_two" />
+                        android:text="@string/question_four_radio_two" />
 
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/question_four_radio_three" />
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/question_four_radio_four" />
                 </RadioGroup>
 
             </LinearLayout>
 
         </androidx.cardview.widget.CardView>
 
+        <!-- QUESTION 5-->
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_view5"
+            style="@style/card_style">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/question_header_style"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/question_header" />
+
+                <TextView
+                    style="@style/question_body_style"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/question_five_body" />
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/question_five_check_one" />
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/question_five_check_two" />
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/question_five_check_three" />
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/question_five_check_four" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <!-- QUESTION 6-->
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_view6"
+            style="@style/card_style">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/question_header_style"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/question_header" />
+
+                <TextView
+                    style="@style/question_body_style"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/question_six_body" />
+
+                <RadioGroup
+                    android:id="@+id/question_six_radios"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/question_six_radio_one" />
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/question_six_radio_two" />
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/question_six_radio_three" />
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/question_six_radio_four" />
+                </RadioGroup>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <!-- QUESTION 7-->
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_view7"
+            style="@style/card_style">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/question_header_style"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/question_header" />
+
+                <TextView
+                    style="@style/question_body_style"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/question_seven_body" />
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/question_seven_check_one" />
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/question_seven_check_two" />
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/question_seven_check_three" />
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/question_seven_check_four" />
+
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
     </LinearLayout>
+
 </ScrollView>

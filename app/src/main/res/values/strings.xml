@@ -1,14 +1,56 @@
 <resources>
     <string name="app_name">QuidditchQuizApp</string>
     <string name="question_header">Question</string>
+    <string name="all_that_apply">Pick all that apply.</string>
 
-    <!-- unscorable quaffle question -->
+    <!-- QUESTION 1 -->
     <string name="question_one_body">Purple chaser is inbounding the live quaffle near their own hoops.
         They throw it towards a teammate in an attempt to pass it, but it bounces off
         of the reciever\'s body and passes fully through their own hoop.
         \n\nIs this a good goal?</string>
     <string name="question_one_radio_one">Yes, the Quaffle was scorable</string>
     <string name="question_one_radio_two">No, the Quaffle was unscorable</string>
+
+    <!-- QUESTION 2 -->
+    <string name="question_two_body">The offense is determined to be: \n<b>Failing to immediately proceed to the penalty box after being carded</b>.
+\nWhat penalty, if any, should be adjudicated?</string>
+    <string name="question_two_radio_one">No harm, no foul</string>
+    <string name="question_two_radio_two">Speaking Captain blue card</string>
+    <string name="question_two_radio_three">Yellow Card</string>
+    <string name="question_two_radio_four">This offense does not exist</string>
+
+    <!-- QUESTION 3 -->
+    <string name="question_three_body">What are the dimensions of the player area? \n __m x 66m</string>
+
+    <!-- QUESTION 4 -->
+    <string name="question_four_body">The offense is determined to be: \n<b>Exceeding the broom limit</b>.
+\nWhat penalty, if any, should be adjudicated?</string>
+    <string name="question_four_radio_one">Yellow Card</string>
+    <string name="question_four_radio_two">Speaking Captain blue card</string>
+    <string name="question_four_radio_three">Red Card</string>
+    <string name="question_four_radio_four">This offense does not exist</string>
+
+    <!-- QUESTION 5 -->
+    <string name="question_five_body">Which of these are forfeit offenses?</string>
+    <string name="question_five_check_one">Endangering others after being ejected</string>
+    <string name="question_five_check_two">Serious foul play</string>
+    <string name="question_five_check_three">Refusing to resume a suspended game</string>
+    <string name="question_five_check_four">Having all players in play serving penalty time</string>
+
+    <!-- QUESTION 6 -->
+    <string name="question_six_body">The offense is determined to be: \n<b>Illegally leaving the player area</b>.
+\nWhat penalty, if any, should be adjudicated?</string>
+    <string name="question_six_radio_one">No harm, no foul</string>
+    <string name="question_six_radio_two">Speaking Captain blue card</string>
+    <string name="question_six_radio_three">Blue Card</string>
+    <string name="question_six_radio_four">This offense does not exist</string>
+
+    <!-- QUESTION 7 -->
+    <string name="question_seven_body">Purple beater accidentally contacts orange chaser with a held bludger by tapping their back without releasing the bludger.</string>
+    <string name="question_seven_check_one">Orange chaser is knocked out</string>
+    <string name="question_seven_check_two">Purple beater: blue card for illegally contacting an opponent with a held bludger</string>
+    <string name="question_seven_check_three">Orange chaser is safe</string>
+    <string name="question_seven_check_four">Purple beater is not penalized</string>
 
 
 </resources>
