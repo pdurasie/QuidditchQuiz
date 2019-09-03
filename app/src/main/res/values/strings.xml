@@ -1,9 +1,16 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_name">QuidditchQuizApp</string>
-    <string name="question_header">Question</string>
-    <string name="all_that_apply">Pick all that apply.</string>
 
-    <string name="results">""</string>
+    <string name="intro">This app tests your knowledge on the rules of Quidditch.\n\nGood luck!</string>
+
+    <string name="question_header_one">Question 1:</string>
+    <string name="question_header_two">Question 2:</string>
+    <string name="question_header_three">Question 3:</string>
+    <string name="question_header_four">Question 4:</string>
+    <string name="question_header_five">Question 5:</string>
+    <string name="question_header_six">Question 6:</string>
+    <string name="question_header_seven">Question 7:</string>
+    <string name="all_that_apply">Pick all that apply.</string>
 
     <!-- QUESTION 1 -->
     <string name="question_one_body">Purple chaser is inbounding the live quaffle near their own hoops.
@@ -23,6 +30,7 @@
 
     <!-- QUESTION 3 -->
     <string name="question_three_body">What are the dimensions of the player area? \n __m x 66m</string>
+    <string name="question_three_edit_area">Enter answer</string>
 
     <!-- QUESTION 4 -->
     <string name="question_four_body">The offense is determined to be: \n<b>Exceeding the broom limit</b>.

@@ -3,6 +3,7 @@ package com.example.android.quidditchquizapp;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.cardview.widget.CardView;
 
+import android.content.Context;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.util.Log;
@@ -12,6 +13,7 @@ import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.RadioGroup;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import org.w3c.dom.Text;
 
@@ -137,9 +139,14 @@ public class MainActivity extends AppCompatActivity {
             cardSeven.setCardBackgroundColor(Color.parseColor("#ffcdd2"));
         }
 
-        TextView resultTextView = findViewById(R.id.result_text_view);
-        resultTextView.setText("You answered " + correctAnswers + " questions out of " + numOfQuestions + " correctly.");
-        resultTextView.setVisibility(View.VISIBLE);
+        // Toast displaying the result
+        Context context = getApplicationContext();
+        CharSequence text = "You answered " + correctAnswers + " questions out of " + numOfQuestions + " correctly.";
+        int duration = Toast.LENGTH_LONG;
+
+        Toast toast = Toast.makeText(context, text, duration);
+        toast.show();
+
     }
 
 }
